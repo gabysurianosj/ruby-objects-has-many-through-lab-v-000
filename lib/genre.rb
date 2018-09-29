@@ -4,7 +4,7 @@ class Genre
   ALL=[]
    def initialize(name)
     @name = name
-    ALL<<self 
+    ALL << self 
   end
    def songs
     Song.all.select do |song|
